@@ -1,9 +1,10 @@
+import { Comment } from '../Comment';
 import styles from './Post.module.scss';
 
 export const Post = () => {
   return (
     <article className={styles.post}>
-      <header>
+      <header className={styles.header}>
         <div className={styles.author}>
           <img
             src='https://avatars.githubusercontent.com/u/69679068?v=4'
@@ -44,6 +45,11 @@ export const Post = () => {
           <button type='submit'>Publicar</button>
         </footer>
       </form>
+
+      <div className={styles.commentList}>
+        <Comment />
+        <Comment />
+      </div>
     </article>
   );
 };

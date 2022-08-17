@@ -1,6 +1,7 @@
 import { Header } from './components/Header';
-import styles from './App.module.scss';
 import { Sidebar } from './components/Sidebar';
+import { Post } from './components/Post';
+import styles from './App.module.scss';
 
 export default function App() {
   return (
@@ -9,7 +10,11 @@ export default function App() {
 
       <div className={styles.container}>
         <Sidebar />
-        <main>Posts</main>
+        <main>
+          <Post />
+          <Post />
+          <Post />
+        </main>
       </div>
     </div>
   );
