@@ -1,3 +1,16 @@
+import { Header } from './components/Header';
+import styles from './App.module.scss';
+import { Sidebar } from './components/Sidebar';
+
 export default function App() {
-  return <h1>Hello Ignite React 2022</h1>;
+  return (
+    <div>
+      <Header />
+
+      <div className={styles.container}>
+        <Sidebar />
+        <main>Posts</main>
+      </div>
+    </div>
+  );
 }
