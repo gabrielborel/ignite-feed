@@ -3,6 +3,10 @@
   padding: 2.5rem;
   border-radius: 8px;
 
+  @media (max-width: 425px) {
+    padding: 2.5rem 1rem;
+  }
+
   & + .post {
     margin-top: 2rem;
   }
