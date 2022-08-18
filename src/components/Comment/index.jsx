@@ -5,7 +5,11 @@ import { Avatar } from '../Avatar';
 export const Comment = () => {
   return (
     <div className={styles.comment}>
-      <Avatar />
+      <Avatar
+        hasBorder={false}
+        src='https://avatars.githubusercontent.com/u/69679068?v=4'
+        alt='Avatar do Gabriel Borel'
+      />
 
       <div className={styles.commentBox}>
         <div className={styles.commentContent}>

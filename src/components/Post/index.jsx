@@ -7,7 +7,10 @@ export const Post = () => {
     <article className={styles.post}>
       <header className={styles.header}>
         <div className={styles.author}>
-          <Avatar bordered />
+          <Avatar
+            alt='Avatar do Gabriel Borel'
+            src='https://avatars.githubusercontent.com/u/69679068?v=4'
+          />
 
           <div className={styles.authorInfo}>
             <strong>Gabriel Borel</strong>

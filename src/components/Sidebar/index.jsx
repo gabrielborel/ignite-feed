@@ -11,7 +11,10 @@ export const Sidebar = () => {
       />
 
       <div className={styles.profile}>
-        <Avatar bordered />
+        <Avatar
+          alt='Avatar do Gabriel Borel'
+          src='https://avatars.githubusercontent.com/u/69679068?v=4'
+        />
 
         <strong>Gabriel Borel</strong>
         <span>Web Developer</span>
